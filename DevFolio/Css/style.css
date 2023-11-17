@@ -1,0 +1,547 @@
+
+header
+{
+    background-image: url(../Css/imgs/hero-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.navbar-brand
+{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+nav .container
+{
+    width: 100%;
+}
+
+header .filter
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    overflow: hidden;
+}
+
+header nav ul li
+{
+
+   position: relative;
+
+}
+header nav ul li:nth-child(1)::after
+{
+   content: '';
+   background-color: white;
+   width: 70%;
+   height: 2px;
+   position: absolute;
+   top:80%;
+   left: 10%;
+}
+
+
+header nav ul li:hover
+{
+   transition: all 2s;
+}
+header nav ul li:hover
+{
+   transition: all 2s;
+}
+
+header nav ul li::after
+{
+    content: '';
+    background-color: white;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    top:80%;
+    left: 10%;
+    transition: all 0.5s;
+}
+header nav ul li:hover::after
+{
+    content: '';
+   background-color: white;
+   width: 70%;
+   height: 2px;
+   position: absolute;
+   top:80%;
+   left: 10%;
+}
+
+header h1
+{
+    font-size: 72px;
+    font-weight: 600;
+}
+header h2
+{
+    font-size: 40px;
+    font-weight: 600;
+   position: relative;
+}
+header h2::after
+{
+    content: '|';
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    animation: typing 9s  infinite  ;
+    transform: translateX(-50%);
+}
+
+
+
+
+.navbar-toggler
+{
+    position: absolute;
+    top: 5%;
+    right: 20%;
+}
+
+
+@keyframes typing
+{
+    0%{content: 'D|';}
+    2.5%{content: 'De|';}
+    5%{content: 'Des|';}
+    7.5%{content: 'Desi|';}
+    10%{content: 'Desig|';}
+    12.5%{content: 'Design|';}
+    15%{content: 'Designe|';}
+    17.5%{content: 'Designer|';}
+    20%{content: 'Designer|';}
+    22.5%{content: 'Designer|';}
+    25%{content: 'Designer|';}
+    27.5%{content: 'D|';}
+    30%{content: 'De|';}
+    32.5%{content: 'Dev|';}
+    35%{content: 'Deve|';}
+    37.5%{content: 'Devel|';}
+    40%{content: 'Develo|';}
+    42.5%{content: 'Develop|';}
+    45%{content: 'Develope|';}
+    47.5%{content: 'Developer|';}
+    50%{content: 'Developer|';}
+    52.5%{content: 'Developer|';}
+    55%{content: 'Developer|';}
+   57.5%{content: 'p|';}
+    60%{content: 'ph|';}
+    62.5%{content: 'pho|';}
+    65%{content: 'phot|';}
+    67.5%{content: 'photo|';}
+    70%{content: 'photog|';}
+   72.5%{content: 'photogr|';}
+    75%{content: 'photogra|';}
+    77.5%{content: 'photograp|';}
+    80%{content: 'photograph|';}
+    82.5%{content: 'photographe|';}
+    85%{content: 'photographer|';}
+    87.5%{content: 'photographer|';}
+    90%{content: 'f|';}
+    92.5%{content: 'free|';}
+    95%{content: 'freela|';}
+    97.5%{content: 'freelanc|';}
+    100%{content: 'freelancer|';}
+ 
+
+}
+
+
+/******************about me************/
+
+p{
+    color: #4e4e4e !important;
+}
+.about-me
+{
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+.gradient85
+{
+    width: 100%;
+    height: 0.75rem;
+    background-image: linear-gradient(to right, #0078FF 85%,#CDE1F8 15%);
+}
+.gradient75
+{
+    width: 100%;
+    height: 0.75rem;
+    background-image: linear-gradient(to right, #0078FF 75%,#CDE1F8 25%);
+}
+.gradient50
+{
+    width: 100%;
+    height: 0.75rem;
+    background-image: linear-gradient(to right, #0078FF 50%,#CDE1F8 50%);
+}
+.gradient90
+{
+    width: 100%;
+    height: 0.75rem;
+    background-image: linear-gradient(to right, #0078FF 90%,#CDE1F8 10%);
+}
+
+/************services*************/
+
+
+.services
+{
+    background-color: #F5F5F5;
+  overflow: hidden;
+}
+
+.services .custom-border2{
+
+position: absolute;
+width: 13%;
+left:50%;
+transform: translateX(-50%); 
+ margin-bottom: 100px;
+}
+
+
+.services .margin
+{
+    margin-top: 100px;
+}
+.services .custom-border2::before{
+content: '';
+
+position: absolute;
+top: -50%;
+left: 50%;
+ transform: translateY(-50%);
+transform: translateX(-50%); 
+
+width: 200%;
+height: 200%;
+border: solid #0078FF 8px;
+border-radius: 100%;
+transition: all 0.7s;
+}
+.services .cardd:hover .custom-border2::before
+{
+    border: solid #CDE1F8 8px;
+    background-color: #0078FF;
+    z-index: -1;
+}
+.services .cardd .color
+{
+   
+   transition: all 0.7s;
+
+}
+.services .cardd:hover .color
+{
+   color: white ;
+
+}
+
+.services .back
+{
+    background-color: #F5F5F5;
+}
+
+.services .custom-border
+{
+    width: 35px;
+    height: 5px;
+    background-color: #0078FF;
+   
+}
+
+
+/******data*************/
+
+
+.data
+{
+    background-image: url(../Css/imgs/post-3.jpg);
+}
+
+.data .layer
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color:   rgba(9, 93, 210, 0.8)  ;
+}
+.data .container
+{
+    position: relative;
+    z-index: 1;
+}
+
+
+.data .custom-border::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+   width: 40px;
+   height: 40px;
+   border: #CDE1F8 solid 5px;
+   border-radius: 20px;
+}
+
+.data .container
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+/**********portfolio*************/
+
+.portfolio 
+{
+    background-color: #F5F5F5;
+}
+
+
+.portfolio .custom-border
+{
+    width: 35px;
+    height: 5px;
+    background-color: #0078FF;
+}
+
+.portfolio .card img
+{
+   transition: all 2s;
+   overflow: hidden;
+}
+.portfolio .card 
+{
+
+   overflow: hidden;
+}
+.portfolio .card a
+{
+
+   overflow: hidden;
+}
+.portfolio .card img
+{
+   transition: all 0.7s;
+   
+}
+
+.portfolio .card:hover img
+{
+    transform: scale(110%,110%);
+}
+
+
+/************slider***************/
+
+
+.slider
+{
+    background-image: url(./imgs/overlay-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.slider .layer
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(76, 157, 240,0.6);
+  
+   
+}
+
+.slider .carousel-indicators [data-bs-target]
+{
+    width:12px;
+    height:12px;
+    border: #2174DB solid 1px;
+    border-radius:6px ;
+}
+
+
+
+/*************blog**************/
+
+.blog 
+{
+    background-color: #F5F5F5;
+}
+
+.blog .custom-border
+{
+    width: 35px;
+    height: 5px;
+    background-color: #0078FF;
+}
+
+
+.blog .hover *
+{
+  transition: all 1s;
+}
+.blog .hover:hover *
+{
+    color: #0078FF;
+    
+}
+
+
+.card-body .modify
+{
+    background-color: #0078FF;
+   width: 12% !important; 
+   height: 20% !important;
+   position: absolute;
+   top: -10%;
+   left: 50%;
+   transform: translateX(-50%);
+}
+.card-body .modify p
+{
+   font-size: 11px;
+   
+}
+
+
+
+
+
+
+/******************footer**********************/
+
+.contact
+{
+    background-image: url(./imgs/overlay-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.contact .layer
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(76, 157, 240,0.6);
+ 
+   
+}
+
+.contact .custom-border
+{
+    width: 100px;
+    height: 5px;
+    background-color: #0078FF;
+}
+
+
+
+
+
+
+    
+ .contact .custom-border2{
+    display: inline-block;
+   width: 50px;
+   height: 50px;
+   border: #0078FF solid 4px;
+   border-radius: 25px;
+   transition: all 0.7s;
+    }
+ .contact .custom-border2:hover 
+ {
+    border-color: #CDE1F8;
+    background-color: #0078FF;
+    color: white;
+    }
+ .contact .custom-border2:hover *
+ {
+   
+    color: white;
+    }
+ .contact .ho:hover 
+ {
+   transition: all 0.7s;
+    
+    }
+ .contact .ho:hover 
+ {
+   border: #CDE1F8 solid 3px ;
+    
+    }
+
+    .footer
+    {
+        background-color: #0062D3;
+        height: 120px;
+    }
+    
+   
+   
+
+
+
+/*************media screens********************************************/
+
+@media  screen and (min-width: 0px) and (max-width:576px) {
+    .responsive-nav-color{
+      
+        height: 50px;
+        background-color: black;
+    }
+}
+
+
+@media  screen and (min-width: 576px) and (max-width:768px) {
+    .responsive-nav-color{
+      
+        height: 50px;
+        background-color: black;
+    }
+}
+@media  screen and (min-width: 768px) and (max-width:992px) {
+    .responsive-nav-color{
+      
+        height: 50px;
+        background-color: black;
+    }
+}
+
+
