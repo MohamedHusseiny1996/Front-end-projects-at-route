@@ -1,0 +1,592 @@
+header
+{
+    background-image: url(../Css/imgs/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+header .layer
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+
+}
+
+header nav li a:target {
+    border-bottom: 2px solid white;
+  }
+
+  header .vh
+  {
+    height: 10vh;
+  }
+  header .vh2
+  {
+    height: 90vh;
+  }
+
+  header .width
+  {
+    background-color: rgba(0, 0, 0, 0.5);
+     width: 30px;
+     height: 30px;
+  }
+
+  header .typing::after
+{
+    content: '|';
+    width: 350px;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    animation: typing 9s  infinite  ;
+    transform: translateX(-50%);
+}
+
+
+@keyframes typing
+{
+    0%{content: 'I AM D|';}
+    2.5%{content: 'I AM De|';}
+    5%{content: 'I AM Des|';}
+    7.5%{content: 'I AM Desi|';}
+    10%{content: 'I AM Desig|';}
+    12.5%{content: 'I AM Design|';}
+    15%{content: 'I AM Designe|';}
+    17.5%{content: 'I AM Designer|';}
+    20%{content: 'I AM Designer|';}
+    22.5%{content: 'I AM Designer|';}
+    25%{content: 'I AM Designer|';}
+    27.5%{content: 'I AM D|';}
+    30%{content: 'I AM De|';}
+    32.5%{content: 'I AM Dev|';}
+    35%{content: 'I AM Deve|';}
+    37.5%{content: 'I AM Devel|';}
+    40%{content: 'I AM Develo|';}
+    42.5%{content: 'I AM Develop|';}
+    45%{content: 'I AM Develope|';}
+    47.5%{content: 'I AM Developer|';}
+    50%{content: 'I AM Developer|';}
+    52.5%{content: 'I AM Developer|';}
+    55%{content: 'I AM Developer|';}
+   57.5%{content: 'I AM L|';}
+    60%{content: 'I AM La|';}
+    62.5%{content: 'I AM Lar|';}
+    65%{content: 'I AM Larr|';}
+    67.5%{content: 'I AM Larry|';}
+    70%{content: 'I AM Larry D|';}
+   72.5%{content: 'I AM Larry Da|';}
+    75%{content: 'I AM Larry Dan|';}
+    77.5%{content: 'I AM Larry Dani|';}
+    80%{content: 'I AM Larry Danie|';}
+    82.5%{content: 'I AM Larry Daniel|';}
+    85%{content: 'I AM Larry Daniels|';}
+    87.5%{content: 'I AM Larry Daniels|';}
+    90%{content: 'I AM Larry Daniels|';}
+    92.5%{content: 'I AM Larry Daniels|';}
+    95%{content: 'I AM |';}
+    97.5%{content: 'I AM |';}
+    100%{content: 'I AM |';}
+ 
+
+}
+
+/******************about me************/
+
+p{
+    color: #4e4e4e !important;
+}
+.about-me
+{
+    background-color: white;
+    overflow: hidden;
+}
+.w-90
+{
+    width: 90%;
+    height: 1.4rem;
+    background-color: #1C1C1C;
+}
+.about-me .color
+{
+    width: 100%;
+    background-color:#E9E9E9 ;
+}
+
+.w-95
+{
+    width: 95%;
+    height: 1.4rem;
+    background-color: #1C1C1C;
+}
+
+
+.w-80
+{
+    width: 80%;
+    height: 1.4rem;
+    background-color: #1C1C1C;
+}
+
+.about-me .image img
+{
+    position: relative;
+    z-index: 1;
+}
+.about-me .image::before
+{
+
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -15px;
+    bottom: -25px;
+    background-image: url(../Css/imgs/dots.png);
+    background-repeat: repeat;
+    z-index: 0;
+}
+
+
+.about-me .hover1
+{
+    transition: all 0.7s;
+}
+.about-me .hover2
+{
+ transition: all 0.7s;
+}
+.about-me .hover1:hover
+{
+   background-color: white !important; 
+   color: black !important ;
+}
+.about-me .hover2:hover
+{
+   background-color: black !important;
+   color: white !important;
+}
+
+
+/**************services***********************/
+
+.services
+{
+    background-color: #F5F5F5;
+  overflow: hidden;
+}
+
+.services .title h2
+{
+    position: relative;
+    z-index: 1;
+}
+.services .title
+{
+    position: relative;
+}
+.services .title::before
+{
+
+    content: "";
+    width: 10%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    background-image: url(../Css/imgs/dots.png);
+    background-repeat: repeat;
+    z-index: 0;
+}
+
+.services .cardd:hover  .custom-border2{
+background-color: black;
+}
+.services .custom-border2{
+
+
+width: 70px;
+height:70px;
+border-radius: 35px;
+background-color: #F5F5F5;
+transition: all 0.7s;
+}
+
+
+.services .margin
+{
+    margin-top: 100px;
+}
+
+.services .cardd .color
+{
+   
+   transition: all 0.7s;
+
+}
+.services .cardd:hover .color
+{
+   color: white ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*****************Portofolio******************/
+
+
+.portofolio .title h2
+{
+    position: relative;
+    z-index: 1;
+}
+.portofolio .title
+{
+    position: relative;
+}
+.portofolio .title::before
+{
+
+    content: "";
+    width: 15%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    background-image: url(../Css/imgs/dots.png);
+    background-repeat: repeat;
+    z-index: 0;
+}
+
+
+.portofolio .layer
+{
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    right: 2%;
+    bottom: 2%;
+    width: 95%;
+    height: 95%;
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.portofolio .card:hover .layer
+{
+    top: 2%;
+    opacity: 1;
+}
+.portofolio .card .color
+{
+   color: white;
+   transition: all 0.7s;
+
+}
+.portofolio .custom-border2:hover .color
+{
+   color: black ;
+
+}
+
+
+.portofolio .custom-border2:hover  {
+    background-color: white;
+    }
+    .portofolio .custom-border2{
+    
+    
+    width: 30px;
+    height:30px;
+    border-radius: 15px;
+    background-color: black;
+    transition: all 0.7s;
+    }
+    
+
+
+
+
+/*********Testimonials.****************************/
+
+
+
+
+.Testimonials
+{
+  background-color: #F7F7F7;
+}
+
+
+.Testimonials .title h2
+{
+    position: relative;
+    z-index: 1;
+}
+.Testimonials .title
+{
+    position: relative;
+}
+.Testimonials .title::before
+{
+
+    content: "";
+    width: 18%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    background-image: url(../Css/imgs/dots.png);
+    background-repeat: repeat;
+    z-index: 0;
+}
+
+
+
+
+
+.Testimonials .carousel-indicators [data-bs-target]
+{
+    width:12px;
+    height:12px;
+    background-color: #869791;
+    border: #F7F7F7 solid 1px;
+    border-radius:6px ;
+}
+
+
+
+/******data*************/
+
+
+.data
+{
+    background-image: url(../Css/imgs/post-3.jpg);
+}
+
+
+.data .container
+{
+    position: relative;
+    z-index: 1;
+}
+
+
+.data .custom-border::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+   width: 40px;
+   height: 40px;
+   border: #CDE1F8 solid 5px;
+   border-radius: 20px;
+}
+
+.data .container
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+
+
+
+
+/***************OurTeam***************************/
+
+.ourteam
+{
+    background-color: #F7F7F7;
+}
+
+.ourteam .title h2
+{
+    position: relative;
+    z-index: 1;
+}
+.ourteam .title
+{
+    position: relative;
+}
+.ourteam .title::before
+{
+
+    content: "";
+    width: 15%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    background-image: url(../Css/imgs/dots.png);
+    background-repeat: repeat;
+    z-index: 0;
+}
+
+
+.ourteam .card
+{
+ 
+    position: relative;
+    width: 90%;
+}
+.ourteam .card img
+{
+transition: all 0.8s;
+}
+.ourteam .card:hover img
+{
+   transform: scale(115%,115%);
+   position: relative;
+   z-index: 0;
+}
+.ourteam .card .card-body
+{
+    background-color:#5B5B5B ;
+  position: relative;
+   z-index: 2;
+}
+
+
+
+.ourteam .layer
+{
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    right: 2%;
+    bottom: 2%;
+    width: 95%;
+    height: 73%;
+    opacity: 0;
+    transition: all 0.9s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+}
+
+.ourteam .card:hover .layer
+{
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg) scale(1, 1);
+}
+.ourteam .card .color
+{
+   color: white;
+   transition: all 0.9s;
+
+}
+.ourteam .custom-border2:hover .color
+{
+   color: black ;
+
+}
+
+
+.ourteam .custom-border2:hover  {
+    background-color: white;
+    }
+    .ourteam .custom-border2{
+    
+    
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
+    background-color: black;
+    transition: all 0.7s;
+    }
+    
+
+
+
+
+
+
+
+    
+/***************contactUs***************************/
+
+
+.contactUs
+{
+  
+}
+
+.contactUs .title h2
+{
+    position: relative;
+    z-index: 1;
+}
+.contactUs .title
+{
+    position: relative;
+}
+.contactUs .title::before
+{
+
+    content: "";
+    width: 16%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    background-image: url(../Css/imgs/dots.png);
+    background-repeat: repeat;
+    z-index: 0;
+}
+
+
+
+
+
+.contactUs .item:hover  .custom-border2{
+    background-color: black;
+    }
+    .contactUs .custom-border2{
+    
+    
+    width: 70px;
+    height:70px;
+    border-radius: 35px;
+    background-color: #F5F5F5;
+    transition: all 0.7s;
+    }
+    
+
+    .contactUs .cardd .color
+    {
+       
+       transition: all 0.7s;
+    
+    }
+    .contactUs .item:hover .color
+    {
+       color: white ;
+    
+    }
+
+
+
